@@ -166,7 +166,7 @@ a:active{
     font-weight: var(--font-weight-bold);
     margin: var(--section-tagline-margin);
 }
-.row{
+.row::after{
     content: "";
     display: table;
     clear: both;
