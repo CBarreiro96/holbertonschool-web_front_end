@@ -6,7 +6,7 @@
 It is a study exercise where you are going to find some exercise to understand diferent characteristic in CSS.
 
 <details>
-    <summary><h3>🛠Comands Used🛠</h3></summary>
+    <summary>🛠<b>Comands Used</b>🛠</summary>
     <table>
         <tr>
             <th align="center"><center>Command</center></th>
@@ -28,7 +28,7 @@ It is a study exercise where you are going to find some exercise to understand d
 
 ## :memo: Exercise :memo:
 <details>
-    <summary><h3>Let's get some images!</h3></summary>
+    <summary><b>Let's get some images!</b></summary>
     <p>The description of the project contains some inspiration for the final look of the project but we’ll have to download some images.</p>
     <p>Head to unsplash and download 10 high resolution images that look as close to the final product that you’re going to make. You will be using these same high res images for a project on Responsive Design in the future. Remember to also include the 3 images (the 2 logos and the favicon) linked in the description of the project.</p>
     <p>The images should all be representative of category they belong to. Images in the work category should be closely related to work.</p>
