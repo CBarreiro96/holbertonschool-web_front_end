@@ -1,0 +1,44 @@
+/*bubble sort */
+@import "103-sort_list.scss";
+
+$sort-order: "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p"
+  "q" "r" "s" "t" "u" "v" "w" "x" "y" "z" !default;
+
+@function compare($a, $b, $order) {
+    $name1: to-lower-case($a);
+    $name2: to-lower-case($b);
+
+
+    @for $i from 1 through min(str-length($name1), str-length($name2)) {
+        $first-letter-name1: str-slice($name1, $i, $i);
+        $first-letter-name2: str-slice($name2, $i, $i);
+ 
+        @if $first-letter-name1 and $first-letter-name2 and index($order, $first-letter-name1) != index($order, $first-letter-name2)
+        {
+            /*Return Boolean value*/
+            @return index($order, $first-letter-name1) < index($order, $first-letter-name2);
+        }
+    }
+    /*Return Boolean value*/
+    @return str-length($name1) < str-length($name2);
+}
+
+
+@function insertion-sort($list, $order: $sort-order) {
+    @for $i from 1 through length($list) {
+        $current: nth($list, $i);
+        $j: $i - 1;
+
+        @while $j > 0 and not compare(nth($list, $j), $current, $order) 
+        {
+            $list: set-nth($list, $j + 1, nth($list, $j));
+            $j: $j - 1;
+        }
+
+        $list: set-nth($list, $j + 1, $current);
+    }
+    /*Return order list*/
+    @return $list;
+}
+
+@debug insertion-sort($list_to_sort);
