@@ -1,0 +1,58 @@
+html {
+    font-size: 62.5%;
+}
+  
+body {
+    height: 11rem;
+    display: flex;
+    align-items: center;
+}
+  
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+}
+  
+.container .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+  
+.box.box1,
+.box.box5 {
+    font-size: 1.56rem;
+    width: 5.5rem;
+    height: 4rem;
+}
+  
+.box.box2,
+.box.box4 {
+    font-size: 2.7rem;
+    width: 10rem;
+    height: 5.6rem;
+}
+  
+.box.box1 {
+    background-color: #5ac58a;
+}
+  .box.box2 {
+    background-color: #2ba7d8;
+  }
+  .box.box3 {
+    background-color: #3a4b5c;
+    width: 20rem;
+    height: 9.5rem;
+    font-size: 6.5rem;
+  }
+  
+  .box.box4 {
+    background-color: #cc23db;
+  }
+  .box.box5 {
+    background-color: #ea7d04;
+  }
