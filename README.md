@@ -134,5 +134,113 @@ It is a repository where you are going to find different activity about web-fron
                 </ul>
             </td>
         </tr>
+        <tr>
+            <td><a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x03-sass_scss" align="center"><center>Sass & Scss</center></a></td>
+            <td>
+                <ul>
+                    <li>
+                        <b>at Rule</b>
+                        <ul>
+                            <li><code>@debug</code></li>
+                            <li><code>@mixin</code></li>
+                            <li><code>@include</code></li>
+                            <li><code>@extend</code></li>
+                            <li><code>@import</code></li>
+                            <li><code>@each $variable in $variable2</code></li>
+                            <li><code>@for $i from number1 through number2</code></li>
+                            <li><code>@media screen</code></li>
+                            <li><code>@function</code></li>
+                            <li><code>@if</code></li>
+                            <li><code>@return</code></li>
+                        </ul>
+                    </li>
+                    <li>Variable declaration with the symbol <code>$</code></li>
+                </ul>
+            </td>
+            <td>
+                <h4>General</h4>
+                <ul>
+                    <li>What Sass means</li>
+                    <li>How to write Sass & Scss file</li>
+                    <li>What is the difference between Sass and Scss</li>
+                    <li>What is the Sass preprocessing</li>
+                    <li>How to declare a variable</li>
+                    <li>How to use nested definition</li>
+                    <li>How to import a Sass file</li>
+                    <li>How to use mixins</li>
+                    <li>How to declare extend/inheritance styles</li>
+                    <li>How to manipulate operators</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x04-flexbox">Flexbox</a> </td>
+            <td>
+                <ul>
+                    <li>Display: flex</li>
+                    <li>
+                        flex-direction
+                        <ul>
+                            <li>row</li>
+                            <li>row-reverse</li>
+                            <li>column</li>
+                            <li>column-reverse  </li>
+                        </ul>
+                    </li>
+                    <li>
+                        flex-wrap
+                        <ul>
+                            <li>nowrap</li>
+                            <li>wrap</li>
+                            <li>wrap-reverse</li>
+                        </ul>
+                    </li>
+                    <li>
+                        justify-content
+                        <ul>
+                            <li>flex-start</li>
+                            <li>flex-end</li>
+                            <li>center</li>
+                            <li>space-between</li>
+                            <li>space-around</li>
+                            <li>space-evenly</li>
+                        </ul>
+                    </li>
+                    <li>
+                        align-items
+                        <ul>
+                            <li>flex-start</li>
+                            <li>flex-end</li>
+                            <li>center</li>
+                            <li>stretch</li>
+                            <li>baseline</li>
+                        </ul>
+                    </li>
+                    <li>
+                        align-content
+                        <ul>
+                            <li>flex-start</li>
+                            <li>flex-end</li>
+                            <li>center</li>
+                            <li>stretch</li>
+                            <li>space-between</li>
+                            <li>space-around</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <h4>General</h4>
+                <ul>
+                    <li>What is Flexbox?</li>
+                    <li>How to convert float positioning to a flex display</li>
+                    <li>How to horizontally and vertically align elements using Flexbox</li>
+                    <li>The difference between the main and cross axes</li>
+                    <li>Properties that work on flex elements vs flex container</li>
+                    <li>Shorthands for flex</li>
+                    <li>How to create a new page with flex in mind</li>
+                </ul>
+            </td>
+        </tr>
     </table>
 </div>
