@@ -11,6 +11,7 @@ function createClassRoom(numbersOfStudents) {
         students.push(studentSeat(i + 1));
     }
 
+
     return students;
 }
 
