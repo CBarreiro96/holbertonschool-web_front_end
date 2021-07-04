@@ -23,9 +23,11 @@
 
           $p.append($deleteSpan, $dataSpan);
 
-          $deleteSpan.click(function () {
-            deletePost(data.id);
-          });
+          $deleteSpan.click(
+            function () {
+              deletePost(data.id);
+            }
+          );
 
           $("body form").after($p);
         }
@@ -37,9 +39,11 @@
                 addPostRow(i);
               }
             }
-          }).fail(function () {
-            alert("Server Error");
-          });
+          }).fail(
+            function () {
+              alert("Server Error");
+            }
+          );
         }
 
         function buildForm() {
@@ -57,10 +61,12 @@
           </form>
           `);
 
-          $("form").submit(function (event) {
-            event.preventDefault();
+          $("form").submit(
+            function (event) {
+              event.preventDefault();
             sendForm();
-          });
+            }
+          );
         }
 
         function sendForm() {
