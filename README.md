@@ -7,17 +7,32 @@ It is a repository where you are going to find different activity about web-fron
 * Exercise about tags HTML
 * Browser-developer tools
 
+### Indice file
+In this repository you are going to find the follow proyect
+
+<div align="center">
+    <table>
+        <tr align="center">
+            <td><a href="#indice1">1. Advanced HTML</td>
+            <td><a href="#indice2">2. Developer tools</td>
+            <td><a href="#indice3">3. Advanced CSS</td>
+            <td><a href="#indice4">4. Advanced CSS</td>
+        </tr>
+    </table>
+</div>
+
+
 ---
 <h2 align="center">📖 Repository content 📖</h2>
 <div align="center">
     <table>
-        <tr>
-            <th align="center"><center>PROJECT</center></th>
-            <th align="center"><center>INFO_CONTENT</center></th>
-            <th align="center"><center> 🏆 LEARNING OBJETIVES 🏆 </center></th>
+        <tr align="center">
+            <th><center>PROJECT</center></th>
+            <th><center>INFO_CONTENT</center></th>
+            <th><center> 🏆 LEARNING OBJETIVES 🏆 </center></th>
         </tr>
         <tr>
-            <td align="center"><a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x00-html_advanced">Advanced HTML</a>
+            <td align="center"><a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x00-html_advanced" id="indice1">Advanced HTML</a>
             <td>
                 <ul>
                     <li>doctype</li>
@@ -53,7 +68,7 @@ It is a repository where you are going to find different activity about web-fron
             </td>
         </tr>
         <tr>
-            <td align="center"> <a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x01-developer_tools">Developer tools</a> </td>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x01-developer_tools" id="indice2">Developer tools</a> </td>
             <td>
                 <ul>
                     <li>change color in the web</li>
@@ -77,7 +92,7 @@ It is a repository where you are going to find different activity about web-fron
             </td>
         </tr>
         <tr>
-            <td align="center"><a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x02-CSS_advanced">Advanced CSS</a></td>
+            <td align="center"><a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x02-CSS_advanced" id="indice3">Advanced CSS</a></td>
             <td>
                 <ul>
                     <li>Class</li>
