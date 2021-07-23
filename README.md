@@ -7,7 +7,7 @@ It is a repository where you are going to find different activity about web-fron
 * Exercise about tags HTML
 * Browser-developer tools
 
-<h2 align="center">📖 Indice file 📖</h2>
+<h2 align="center">📌 Index files 📌</h2>
 In this repository you are going to find the follow proyect
 
 <div align="center">
