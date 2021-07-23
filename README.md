@@ -7,7 +7,7 @@ It is a repository where you are going to find different activity about web-fron
 * Exercise about tags HTML
 * Browser-developer tools
 
-### Indice file
+<h2 align="center">📖 Indice file 📖</h2>
 In this repository you are going to find the follow proyect
 
 <div align="center">
@@ -16,7 +16,18 @@ In this repository you are going to find the follow proyect
             <td><a href="#indice1">1. Advanced HTML</td>
             <td><a href="#indice2">2. Developer tools</td>
             <td><a href="#indice3">3. Advanced CSS</td>
-            <td><a href="#indice4">4. Advanced CSS</td>
+            <td><a href="#indice4">4. Sass & Scss</td>
+            <td><a href="#indice5">5. Flexbox</td>
+        </tr>
+        <tr align="center">
+            <td><a href="#indice6">6. Form</td>
+            <td><a href="#indice7">7. Responsive design</td>
+            <td><a href="#indice8">8. Accessibility</td>
+            <td><a href="#indice9">9. Bootstrap</td>
+            <td><a href="#indice10">10. JavaScript advanced</td>
+        </tr>
+        <tr align="center">
+            <td><a href="#indice11">11. jQuery advanced</td>
         </tr>
     </table>
 </div>
@@ -150,7 +161,7 @@ In this repository you are going to find the follow proyect
             </td>
         </tr>
         <tr>
-            <td><a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x03-sass_scss" align="center"><center>Sass & Scss</center></a></td>
+            <td><a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x03-sass_scss" id="indice4" align="center"><center>Sass & Scss</center></a></td>
             <td>
                 <ul>
                     <li>
@@ -189,7 +200,7 @@ In this repository you are going to find the follow proyect
             </td>
         </tr>
         <tr>
-            <td align="center"> <a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x04-flexbox">Flexbox</a> </td>
+            <td align="center"> <a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x04-flexbox" id="indice5">Flexbox</a> </td>
             <td>
                 <ul>
                     <li>Display: flex</li>
@@ -254,6 +265,100 @@ In this repository you are going to find the follow proyect
                     <li>Properties that work on flex elements vs flex container</li>
                     <li>Shorthands for flex</li>
                     <li>How to create a new page with flex in mind</li>
+                </ul>
+            </td>
+        </tr>
+        <tr align="center">
+            <td><a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x05-form" id="indice6"> Form </a></td>
+            <td>
+                <ul align="left">
+                    <li>form tag</li>
+                </ul>
+            </td>
+            <td>
+            <h4>General</h4>
+                <ul align="left">
+                    <li>How to create an HTML5 form</li>
+                    <li>How to choose the right input type</li>
+                    <li>How to constrain a form field with regular expressions</li>
+                    <li>How to style inputs for invalid, valid, and required fields</li>
+                    <li>How to build a a comment form</li>
+                    <li>How to build a simple search form</li>
+                    <li>How to create usable and accessible forms</li>
+                </ul>
+            </td>
+        </tr>
+        <tr align="center">
+            <td><a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x06-responsive_design" id="indice7"> Responsive design </a></td>
+            <td></td>
+            <td>
+                <h4>Learning</h4>
+                <ul align="left">
+                    <li>Mobile-first design</li>
+                    <li>Media-queries</li>
+                    <li>Sizes to use for responsive web design</li>
+                    <li>How to make a website responsive</li>
+                    <li>The differences between responsive and adaptive design</li>
+                    <li>CSS units that are used to make elements flexible</li>
+                <ul>
+            </td>
+        </tr>
+        <tr align="center">
+            <td><a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x07-accessibility" id="indice8">Accessibility</td>
+            <td></td>
+            <td>
+                <h4>General</h4>
+                <ul align="left">
+                    <li>ARIA’s main purpose</li>
+                    <li>WCAG conformance levels (A, AA and AAA)</li>
+                    <li>The importance of Web Accessibility</li>
+                    <li>Tools to use for Web Accessibility</li>
+                </ul>
+            </td>
+        </tr>
+        <tr align="center">
+            <td><a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x0A-Bootstrap" id="indice9">Bootstrap</a></td>
+            <td></td>
+            <td>
+                <h4>General</h4>
+                <ul align="left">
+                    <li>Usage of Containers</li>
+                    <li>Usage of the Grid system</li>
+                    <li>Usage of Components</li>
+                    <li>Usage of Utilities</li>
+                </uñ>
+            </td>
+        </tr>
+        <tr align="center">
+            <td><a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x0C-Javascript_advanced" id="indice10">JavaScript advanced</td>
+            <td></td>
+            <td>
+                <h4>General</h4>
+                <ul align="left">
+                    <li>What is lexical scoping in JavaScript</li>
+                    <li>What is closure in JavaScript</li>
+                    <li>How to use closure</li>
+                    <li>How to chain different closures</li>
+                    <li>How to simulate private methods with Closure</li>
+                    <li>The execution stack order with JavaScript</li>
+                    <li>How to use binding</li>
+                    <li>How to use callbacks</li>
+                </ul>
+            </td>
+        </tr>
+        <tr align="center">
+            <td><a href="https://github.com/CBarreiro96/holbertonschool-web_front_end/tree/main/0x0D-JQuery_advanced" id="indice11">jQuery advanced</td>
+            <td></td>
+            <td>
+                <h4>General</h4>
+                <ul align="left">
+                    <li>Learn how to load jQuery from a CDN in a page</li>
+                    <li>Learn the different ways to create DOM elements with jQuery</li>
+                    <li>Learn how to modify elements</li>
+                    <li>Learn how to add new elements to a page with different positions</li>
+                    <li>Learn how to add a click handler on an element</li>
+                    <li>Learn how to send GET, POST, DELETE or any type of AJAX query with jQuery</li>
+                    <li>Learn how to create a pagination</li>
                 </ul>
             </td>
         </tr>
